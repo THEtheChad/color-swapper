@@ -1,0 +1,25 @@
+{
+  "name": "color",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "babel src -d lib -w"
+  },
+  "author": "Chad Elliott <chad@exceleratedigital.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "delta-e": "0.0.7",
+    "expose-loader": "^0.7.4"
+  }
+}
